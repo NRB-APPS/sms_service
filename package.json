@@ -1,0 +1,19 @@
+{
+  "name": "sms-service",
+  "version": "1.0.0",
+  "description": "Service for Syncronising Data Using SMS Messages for eBRS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "node-rest-client": "^3.1.0",
+    "node-sms-transceiver": "0.0.1",
+    "serialport-gsm": "^3.4.1",
+    "sqlite3": "^5.0.2"
+  }
+}

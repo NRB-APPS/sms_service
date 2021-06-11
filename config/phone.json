@@ -1,0 +1,8 @@
+{
+  "name": "Ukwe SMS Service",
+  "number" : "+265991763413",
+  "test_number"  : "+265991763413",
+  "test_message" : "This is a Test Message from Ukwe H.C",
+  "mode"   : "PDU",
+  "max_sim_msgs": 49
+}

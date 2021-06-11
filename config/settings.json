@@ -1,0 +1,8 @@
+{
+ "mode"  : "HQ",
+ "port" : "8000",
+ "local_ebrs_url" : "http://0.0.0.0:3000",
+ "modem_path"  : "/dev/ttyUSB0",
+ "environment" : "production",
+ "check_inbox_interval"  : 10
+}
