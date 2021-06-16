@@ -268,10 +268,10 @@ function get_values(h){
 
 function format(pid, d){
 
-	var c_header = "C^"+pid+"^"+35066;
-	var m_header = "M^"+pid+"^"+35066; 
-	var f_header = "F^"+pid+"^"+35066;
-	var i_header = "I^"+pid+"^"+35066;  
+	var c_header = "C^"+pid+"^"+settings.site_code;
+	var m_header = "M^"+pid+"^"+settings.site_code; 
+	var f_header = "F^"+pid+"^"+settings.site_code;
+	var i_header = "I^"+pid+"^"+settings.site_code;  
 	
 	var c = c_header + "|" + get_values(d['child_details']).join("|")
 	var m = m_header + "|" + get_values(d['mother_details']).join("|")
