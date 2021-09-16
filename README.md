@@ -6,7 +6,7 @@ A -Requirements
 5. Raspberry PI
 
 B Configurations
-1 . Change the configurations in file config/phone.json to include the target phone and interval for checking inbox
+1 . Change the configurations in file config/phone.json
 
      phone = Target number where messages will be sent
      test_number = Number of someone from NRB monitoring the service
